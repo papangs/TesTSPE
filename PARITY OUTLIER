@@ -1,0 +1,26 @@
+package com.dog.tes;
+
+public class Parity {
+
+	public static void main(String[] args) {
+
+		Integer[] haystack = {2, 4, 0, 100, 4, 11, 2602, 36};
+
+		for (int i = 0; i < haystack.length; i++) {
+			
+			Integer mod = haystack[i]%2;
+			
+			if(mod==0) {
+
+				System.out.println(haystack[i]+"the only even number");
+				
+			}else {
+
+				System.out.println(haystack[i]+"the only odd number");
+			}
+			
+		}
+		
+	}
+	
+}
