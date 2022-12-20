@@ -1,0 +1,16 @@
+package com.dog.tes;
+
+import java.util.Arrays;
+
+public class Needle {
+
+	public static void main(String[] args) {
+
+		String[] haystack = {"red", "blue", "black"};
+		String needle = "black";
+
+		int getarr = Arrays.asList(haystack).indexOf(needle);
+		System.out.println("This function should return "+getarr+" as the index of the needle ("+needle+")");
+	}
+	
+}
